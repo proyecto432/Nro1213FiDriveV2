@@ -17,7 +17,7 @@ include_once("estructura/menu.php");
 
 
 
-<div id="contenido"  style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;" >
+<div id="contenido"  style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:15.5%"  >
 
 
 <form  id="eje4" name="eje4" method="POST" action="accion.php">
@@ -25,7 +25,7 @@ include_once("estructura/menu.php");
 
 
 
-<div class="col-md-12">
+<div class="col-md-6 mb-3">
 <p>Descripcion<br>
 Archivo para alta de archivos
 </p>

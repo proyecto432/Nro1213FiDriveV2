@@ -26,7 +26,7 @@ include_once("estructura/menu.php");
 
 
 
-<div id="contenido" style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:10.5%;" >
+<div id="contenido" style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:15.5%;" >
 
 
 

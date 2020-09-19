@@ -10,7 +10,7 @@ include_once("estructura/menu.php");
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="../css/bootstrap/4.5.2/bootstrap.min.css" >
- <link rel="stylesheet" href="/bootstrap/4.5.2/check.js" >
+ <link rel="stylesheet" href="../bootstrap/4.5.2/check.js" >
 
 </head> 
 

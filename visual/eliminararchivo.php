@@ -15,6 +15,10 @@ include_once("estructura/menu.php");
 </head> 
 
 <!---->
+
+
+<div id="contenido" style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:15.5%;" >
+
 <form  id="elim" name="elim" method="POST" >
 
 
@@ -64,5 +68,5 @@ Seleccionar desde un Combo, los usuario:
 
 <?php
 
-include_once("estructura/pieBT.php");
+include_once("estructura/pie.php");
 ?>
