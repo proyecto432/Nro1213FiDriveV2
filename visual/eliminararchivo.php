@@ -17,8 +17,7 @@ include_once("estructura/menu.php");
 <!---->
 
 
-<div id="contenido" style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:15.5%;" >
-
+<div id="contenido" style="height: 400px; width: 84%; border: 2px solid red; border-radius: 5px;margin-left:16%;" >
 <form  id="elim" name="elim" method="POST" >
 
 
@@ -26,14 +25,17 @@ include_once("estructura/menu.php");
 
 
 
-
-<p>Razon para de eliminación
+    <div class="col-md-6 mb-3">
+<p>Razon para de eliminación<br>
 
 <textarea name="teli" id="teli" rows="2" cols="100" placeholder="Escriba el motivo" required></textarea>
 </p>
+</div>
 
+
+<div class="col-md-6 mb-3">
 <p>
-Seleccionar desde un Combo, los usuario:
+Seleccionar del combo, el usuario:
 <select>
   <option>Admin</option>
   <option>Visitante</option>
@@ -42,7 +44,7 @@ Seleccionar desde un Combo, los usuario:
   </select>
 
 </p>
-
+</div>
 
 
 
@@ -60,8 +62,7 @@ Seleccionar desde un Combo, los usuario:
  <script src="../js/bootstrap/4.5.2/bootstrap.min.js"></script>
  <script src="../js/bootstrap/4.5.2/bootstrapValidator.min.js"></script>
 
- <script type="text/javascript" src="../../vista/js/bootstrap/4.5.2/validator.js"></script>
-
+ <script type="text/javascript" src="../../visual/js/bootstrap/4.5.2/validator.js"></script>
 
 
 

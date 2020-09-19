@@ -14,6 +14,9 @@ include_once("estructura/menu.php");
 
 </head> 
 
+
+<div id="contenido" style="height: 400px; width: 84%; border: 2px solid red; border-radius: 5px;margin-left:16%;" >
+
 <!---->
 <form  id="elim1" name="elim1" method="POST" >
 
@@ -21,12 +24,19 @@ include_once("estructura/menu.php");
     1234.png
 
 
+<div class="col-md-6 mb-3">
 <p>Cantidad de veses compartido</p>
+</div>
 
-<p>Razon para no compartirlo</p>
+<div class="col-md-6 mb-3">
+<p>Razon para no compartirlo<br>
 
-<p>
-Seleccionar desde un Combo, los usuario:
+<textarea name="teli" id="teli" rows="2" cols="100" placeholder="Escriba el motivo" required></textarea></p>
+
+<p></div>
+
+<div class="col-md-6 mb-3">
+Seleccionar del combo, el usuario:
 <select>
   <option>Admin</option>
   <option>Visitante</option>
@@ -34,7 +44,7 @@ Seleccionar desde un Combo, los usuario:
 
   </select>
 
-</p>
+</p></div>
 
 
 
@@ -46,7 +56,14 @@ Seleccionar desde un Combo, los usuario:
 
 
 </body>
+
+<script src="../js/jquery/jquery-3.5.1.slim.min.js"></script>
+ <script src="../js/popper/popper.min.js"></script>
+ <script src="../js/bootstrap/4.5.2/bootstrap.min.js"></script>
+ <script src="../js/bootstrap/4.5.2/bootstrapValidator.min.js"></script>
+
+ <script type="text/javascript" src="../../visual/js/bootstrap/4.5.2/validator.js"></script>
 <?php
 
-include_once("estructura/pieBT.php");
+include_once("estructura/pie.php");
 ?>

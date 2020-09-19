@@ -7,20 +7,16 @@ include_once("estructura/menu.php");
 ?>
 <head>
 <!-- Required meta tags -->
-<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="../css/bootstrap/4.5.2/bootstrap.min.css" >
- <link rel="stylesheet" href="/bootstrap/4.5.2/check.js" >
-
 </head> 
 
 
 
-<div id="contenido"  style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:15.5%"  >
+<div id="contenido" style="height: 400px; width: 84%; border: 2px solid red; border-radius: 5px;margin-left:16%;" >
 
-
-<form  id="eje4" name="eje4" method="POST" action="accion.php">
+<form  id="eje4" name="eje4" method="POST" action="accion.php"  data-toggle="validator">
 <h2>1234.png</h2>
 
 
@@ -32,7 +28,7 @@ Archivo para alta de archivos
 </div>
 
 
-<div class="col-md-12">
+<div class="col-md-6 mb-3">
 Usuario que lo carga:
 <select>
   <option>Admin</option>
@@ -42,7 +38,10 @@ Usuario que lo carga:
   </select>
   </div><br><br>
 
-  <div class="col-md-12">
+
+
+  
+  <div class="col-md-6 mb-3">
 Elija el icono que va a utilizar:
   
 

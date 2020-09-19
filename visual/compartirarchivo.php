@@ -26,26 +26,30 @@ include_once("estructura/menu.php");
 
 
 
-<div id="contenido" style="height: 400px; width: 89%; border: 2px solid red; border-radius: 5px;margin-left:15.5%;" >
-
+<div id="contenido" style="height: 400px; width: 84%; border: 2px solid red; border-radius: 5px;margin-left:16%;" >
 
 
 <form  id="eje4" name="eje4" method="POST" action="accion.php">
 1234.png
 
-
+<div class="col-md-6 mb-3">
 <p>
 Ingrese la cantidad de dias que comparte este archivo:
 <input type="number" name="cantArch" min="1" placeholder="si no ingresa nada quiere decir que no expira" required>
 </p>
+</div>
 
+
+<div class="col-md-6 mb-3">
 <p>
 Ingresar cantidad de descargar posibles:
 <input type="number" name="cantArch" min="1" placeholder="Si queda vació quiere decir que no hay limites" required>
 </p>
+</div>
 
+<div class="col-md-6 mb-3">
 <p>
-Seleccionar desde un Combo, los usuario:
+Seleccionar desde el combo, el usuario:
 <select>
   <option>Admin</option>
   <option>Visitante</option>
@@ -54,6 +58,11 @@ Seleccionar desde un Combo, los usuario:
   </select>
 
 </p>
+</div>
+
+
+
+<div class="col-md-6 mb-3">
 
 <p>
 Si desea proteger su contraseña marque la casilla
@@ -62,9 +71,17 @@ Si desea proteger su contraseña marque la casilla
 
 <div id="content" style="display: none;">
 <p>
+</div>
+
+
+<div class="col-md-6 mb-3">
 Cargar contraseña:
 <input type="password">
 </p>
+</div>
+
+
+
 </div>
 
 
