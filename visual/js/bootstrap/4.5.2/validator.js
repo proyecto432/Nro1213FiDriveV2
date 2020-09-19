@@ -1,0 +1,5 @@
+$('#eje4').bootstrapValidator({
+
+  
+
+});
