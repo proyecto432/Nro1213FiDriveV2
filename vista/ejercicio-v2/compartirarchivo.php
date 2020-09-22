@@ -1,17 +1,17 @@
 <?php
 $Titulo = " Ejercicio entregable 2";
-include_once("estructura/cabecera.php");
+include_once("../estructura/cabecera.php");
 ?>
 <?php
-include_once("estructura/menu.php");
+include_once("../estructura/menu.php");
 ?>
 
 <!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="../css/bootstrap/4.5.2/bootstrap.min.css" >
- <link rel="stylesheet" href="/bootstrap/4.5.2/check.js" >
+ <link rel="stylesheet" href="../bootstrap/4.5.2/check.js" >
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 </head> 
 
@@ -19,14 +19,14 @@ include_once("estructura/menu.php");
 
 
 
-<link rel="stylesheet" href="/bootstrap/4.5.2/check.js" >
+<link rel="stylesheet" href="../bootstrap/4.5.2/check.js" >
 
 
 
 
 
 
-<div id="contenido" style="height: 400px; width: 84%; border: 2px solid red; border-radius: 5px;margin-left:16%;" >
+<div id="contenido" style="height: 400px; width: 84%; border: 1px solid #808080; border-radius: 2px;margin-left:16%;" >
 
 
 <form  id="eje4" name="eje4" method="POST" action="accion.php">
@@ -35,7 +35,7 @@ include_once("estructura/menu.php");
 <div class="col-md-6 mb-3">
 <p>
 Ingrese la cantidad de dias que comparte este archivo:
-<input type="number" name="cantArch" min="1" placeholder="si no ingresa nada quiere decir que no expira" required>
+<input  size="50" name="cantArch" min="1"  placeholder="si no ingresa nada quiere decir que no expira" required>
 </p>
 </div>
 
@@ -43,7 +43,7 @@ Ingrese la cantidad de dias que comparte este archivo:
 <div class="col-md-6 mb-3">
 <p>
 Ingresar cantidad de descargar posibles:
-<input type="number" name="cantArch" min="1" placeholder="Si queda vació quiere decir que no hay limites" required>
+<input  name="cantArch"  size="50" placeholder="Si queda vació quiere decir que no hay limites" required>
 </p>
 </div>
 
@@ -82,7 +82,7 @@ Cargar contraseña:
 
 
 
-</div>
+
 
 
 
@@ -93,11 +93,11 @@ enlace
 
 </form >
 
-
+</body>
 </div>
 
 
-</body>
+</div>
 
 
 
@@ -115,5 +115,5 @@ enlace
 
 <?php
 
-include_once("estructura/pie.php");
+include_once("../estructura/pie.php");
 ?>

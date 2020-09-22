@@ -1,13 +1,11 @@
 <?php
 $Titulo = " Ejercicio entregable 2";
-include_once("estructura/cabecera.php");
+include_once("../estructura/cabecera.php");
 ?>
 <?php
-include_once("estructura/menu.php");
+include_once("../estructura/menu.php");
 ?>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="../css/bootstrap/4.5.2/bootstrap.min.css" >
  <link rel="stylesheet" href="../bootstrap/4.5.2/check.js" >
@@ -15,13 +13,13 @@ include_once("estructura/menu.php");
 </head> 
 
 
-<div id="contenido" style="height: 400px; width: 84%; border: 2px solid red; border-radius: 5px;margin-left:16%;" >
+<div id="contenido" style="height: 400px; width: 84%; border: 1px solid #808080; border-radius: 2px;margin-left:16%;" >
 
 <!---->
 <form  id="elim1" name="elim1" method="POST" >
 
 
-    1234.png
+   <label><p> 1234.png</p></label>
 
 
 <div class="col-md-6 mb-3">
@@ -55,7 +53,7 @@ Seleccionar del combo, el usuario:
 </div>
 
 
-</body>
+
 
 <script src="../js/jquery/jquery-3.5.1.slim.min.js"></script>
  <script src="../js/popper/popper.min.js"></script>
@@ -65,5 +63,5 @@ Seleccionar del combo, el usuario:
  <script type="text/javascript" src="../../visual/js/bootstrap/4.5.2/validator.js"></script>
 <?php
 
-include_once("estructura/pie.php");
+include_once("../estructura/pie.php");
 ?>
