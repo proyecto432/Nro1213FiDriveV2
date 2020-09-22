@@ -17,7 +17,7 @@ include_once("../estructura/menu.php");
 <!---->
 
 
-<div id="contenido" style="height: 400px; width: 84%; border: 1px solid #808080; border-radius: 2px;margin-left:16%;" >
+<div id="contenido" style="height: 430px; width: 84%; border: 1px solid #808080; border-radius: 2px;margin-left:16%;" >
 <form  id="elim" name="elim" method="POST" >
 
 

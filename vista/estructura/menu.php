@@ -20,10 +20,11 @@
 
 <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
 
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#"></a>
 
 
 </nav>
-<div class="container fluid" style=" width: 16%; float: left;">
+<div class="container" style=" width: 16%; float: left;">
 
 
     <div class="row">
