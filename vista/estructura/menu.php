@@ -23,17 +23,16 @@
 
 
 </nav>
-<div class="container fluid" style=" width: 16%; float: 
-left;">
+<div class="container fluid" style=" width: 16%; float: left;">
 
 
     <div class="row">
     
-        <nav id="sidebarMenu" class=" col-lg-2 d-md-block sidebar collapse" >
+        <nav id="sidebarMenu" class=" col-lg-2 d-md-block  collapse" >
 
 
-            <div class="sidebar-sticky pt-3">
-
+            <div class="sidebar-sticky ">
+            <strong>Menu </strong>
 
             <ul >
                     <li class="nav-item">
