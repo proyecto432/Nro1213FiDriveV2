@@ -13,13 +13,12 @@ include_once("../estructura/menu.php");
 </head> 
 
 
-<div id="contenido" style="height: 430px; width: 84%; border: 1px solid #808080; border-radius: 2px;margin-left:16%;" >
+<div id="contenido" style="height:100%; width: 84%; border: 1px solid #808080; border-radius: 2px;margin-left:16%;" >
 
 <!---->
 <form  id="elim1" name="elim1" method="POST" >
 
-
-   <label><p> 1234.png</p></label>
+<h2>1234.png</h2>
 
 
 <div class="col-md-6 mb-3">

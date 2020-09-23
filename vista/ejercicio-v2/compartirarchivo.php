@@ -15,6 +15,18 @@ include_once("../estructura/menu.php");
 
 </head> 
 
+<script type="text/javascript">
+    function showContent() {
+        element = document.getElementById("content");
+        check = document.getElementById("check");
+        if (check.checked) {
+            element.style.display='block';
+        }
+        else {
+            element.style.display='none';
+        }
+    }
+</script>
 
 
 
@@ -26,11 +38,11 @@ include_once("../estructura/menu.php");
 
 
 
-<div id="contenido" style="height: 430px; width: 84%; border: 1px solid #808080; border-radius: 2px;margin-left:16%;" >
+<div id="contenido" style="height: 100%; width: 84%; border: 1px solid #808080; border-radius: 2px;margin-left:16%;" >
 
 
-<form  id="eje4" name="eje4" method="POST" action="accion.php">
-1234.png
+<form  id="eje2" name="eje2" method="POST" action="accion.php">
+<h2>1234.png</h2>
 
 <div class="col-md-6 mb-3">
 <p>
@@ -66,19 +78,32 @@ Seleccionar desde el combo, el usuario:
 
 <p>
 Si desea proteger su contraseña marque la casilla
-<input type="checkbox" id="pro" name="pro">
+<input type="checkbox" name="check" id="check" value="1" onchange="javascript:showContent()" />
+</div>
 </p>
 
-<div id="content" style="display: none;">
-<p>
-</div>
+
+
+<div class="col-md-6 mb-3" id="content" style="display: none;">
+Cargar contraseña:
+<input type="password">
+ </div>
+
+
+
+
+ <p>
+<link rel="stylesheet">enlace a compartir
+</p>
+
+
 
 
 <div class="col-md-6 mb-3">
-Cargar contraseña:
-<input type="password">
-</p>
-</div>
+Desea encriptar el contenido:
+ <input type="text" value="valor" readonly="readonly">
+ <button  type="submit">Generar Hash</button>
+ </div>
 
 
 
@@ -86,9 +111,12 @@ Cargar contraseña:
 
 
 
-<p>
-enlace
-</p>
+
+
+
+
+
+
 
 
 </form >
@@ -110,7 +138,7 @@ enlace
  <script src="../js/bootstrap/4.5.2/bootstrapValidator.min.js"></script>
 
  <script type="text/javascript" src="../../vista/js/bootstrap/4.5.2/validator.js"></script>
-
+ <script type="text/javascript" src="../../vista/js/bootstrap/4.5.2/check.js"></script>
 
 
 <?php
