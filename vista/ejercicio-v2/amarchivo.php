@@ -2,24 +2,12 @@
 $Titulo = " Ejercicio entregable 2";
 include_once("../estructura/cabecera.php");
 ?>
-<?php
-include_once("../estructura/menu.php");
-?>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
-<!-- Bootstrap CSS -->
- <link rel="stylesheet" href="../css/bootstrap/4.5.2/bootstrap.min.css" >
- <link rel="stylesheet" href="../bootstrap/4.5.2/check.js" >
-
-</head> 
 
 
 
 
-<div id="contenido" style="height: 100%; width: 84%; border: 1px solid #808080; border-radius: 2px;margin-left:16%;" >
+
+
 
 <form  id="eje4" name="eje4" method="POST" action="accion.php"  data-toggle="validator">
 <h2>1234.png</h2>
@@ -74,14 +62,6 @@ Clave del archivo:
 
 </form>
 
-
-<script src="../js/jquery/jquery-3.5.1.slim.min.js"></script>
- <script src="../js/popper/popper.min.js"></script>
- <script src="../js/bootstrap/4.5.2/bootstrap.min.js"></script>
- <script src="../js/bootstrap/4.5.2/bootstrapValidator.min.js"></script>
-
- <script type="text/javascript" src="../../vista/js/bootstrap/4.5.2/validator.js"></script>
- <script type="text/javascript" src="../js/bootstrap/4.5.2/check.js"></script>
 
 <?php
 include_once("../estructura/pie.php");
