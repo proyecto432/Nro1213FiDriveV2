@@ -1,6 +1,6 @@
 <?php
 $Titulo = " Ejercicio entregable 2";
-include_once("../estructura/cabecera.php");
+include_once("estructura/cabecerav2.php");
 ?>
 
 <!---->
@@ -16,7 +16,7 @@ include_once("../estructura/cabecera.php");
 <div class="col-md-6 mb-3">
 <p>Razon para no compartirlo<br>
 
-<textarea name="teli" id="teli" rows="2" cols="100" placeholder="Escriba el motivo" required></textarea></p>
+<textarea name="elicom" id="elicom" rows="2" cols="100" placeholder="Escriba el motivo" required></textarea></p>
 
 <p></div>
 
@@ -40,5 +40,5 @@ Seleccionar del combo, el usuario:
 
 <?php
 
-include_once("../estructura/pie.php");
+include_once("estructura/piev2.php");
 ?>
